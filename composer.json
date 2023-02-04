@@ -1,0 +1,23 @@
+{
+    "name": "usuario/app-salon_php_mvc_js_sass",
+    "description": "ProyectoUnsch",
+    "type": "project",
+    "autoload": {
+        "psr-4":{
+            "MVC\\" : "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "GALVAN BARZOLA",
+            "email": "manuel.galvan.27@unsch.edu.pe"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
